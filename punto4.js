@@ -1,24 +1,16 @@
-function calcularSables(sable){
+let sable=[-4,3,-7,-5,-9]
+let energiaNegativa=0
 
-for (int i=0; i<0; i++) {
+for (let i=0; i<sable.length; i++) {
 
-    if (sable[i] > 0) {
+    if (sable[i] < 0) {
+        energiaNegativa ++
 
-    return(`La cantidad de sables con energia positiva es: ${sable}`)
-
-}else (sable[i] < 0) {
-
-        return(`La cantidad de sables con energia negativa es: ${sable}`)
+}else{
+        console.log()
     }
-}}
+}
 
-console.log(calcularSables(-4,3,-7))
+console.log(`La cantidad de sables de luz con energia negativa en joules es: ${energiaNegativa} Sables`)
 
-/*for (int i = 0; i < cantnum; i++) {
-    //           } if (vector[i] > 0) {
-    //                ttpos += 1;
-    //               
-    //            } else(vector[i] < 0) {
-    //                ttneg += 1;
-    //                
-    //    */        
+    
