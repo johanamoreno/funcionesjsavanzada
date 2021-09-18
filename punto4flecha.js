@@ -1,8 +1,7 @@
 let sable=[-5,-10,0,-1.1,3,5]
 let energiaNegativa=0
 
-function calcularEnergia(sable,energiaNegativa){
-
+let calcularEnergia = (sable,energiaNegativa) => {
 
     for (let i=0; i<sable.length; i++) {
 
@@ -14,6 +13,6 @@ function calcularEnergia(sable,energiaNegativa){
         }
     }
     return(energiaNegativa)
+    }
 
-}
 console.log(`La cantidad de sables de luz con energia negativa en joules es: ${calcularEnergia(sable,energiaNegativa)} Sables`)
